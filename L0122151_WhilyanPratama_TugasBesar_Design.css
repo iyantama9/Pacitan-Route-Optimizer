@@ -1,0 +1,57 @@
+body {
+  font-family: 'Encode Sans', monospace;
+  font-weight: bold;
+  background-color: #2d313d;
+  margin: 0;
+  padding: 0;
+}
+
+.HeaderJudul {
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.BoxTengah {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #353744;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+form {
+  padding: 20px;
+}
+
+.FormDestinasi {
+  margin-bottom: 20px;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Encode Sans', monospace;
+}
+
+button {
+  background-color: #63719f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label[for="destinasi1"],
+label[for="destinasi2"],
+label[for="destinasi3"],
+label[for="destinasi4"],
+label[for="Hasil"]{
+    color: #FFFFFF;
+}
